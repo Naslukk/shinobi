@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
+
+
+
+*{
+    padding: 0; 
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+nav {
+    background: #2845fc;
+}
+nav .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    height: 70px;
+}
+nav .logo img {
+    width: 70px;
+    height: 70px;
+}
+nav .wrapper .content{
+    width: 30%;
+}
+
+nav .wrapper .content ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+}
+nav .wrapper .content ul li a{
+    font-size: 20px;
+    color: #ffffff;
+}
+.home {
+    height: calc(100vh - 90px);
+    background: #faf60c;
+    overflow: hidden;
+    background-image: radial-gradient(#2845fc 1.1px, #faf60c 1.1px);
+    background-size: 22px 22px;
+}
+.active{
+    background: #2845fc;
+    background-image: radial-gradient(#faf60c 1.1px, #2845fc 1.1px);
+    background-size: 22px 22px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .row{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.wrapper .row .no-col-2{
+    flex-basis: 50%;
+}
+.wrapper .row .no-col-2 .head{
+    position: relative;
+    top: 25%;
+}
+.wrapper .row .no-col-2 .head h1{
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.wrapper .row .no-col-2 .head .btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.wrapper .row .no-col-2 .head .btn button{
+    background: #2845fc;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.active .wrapper .row .no-col-2 .head .btn1 {
+    background: #faf60c;
+}
